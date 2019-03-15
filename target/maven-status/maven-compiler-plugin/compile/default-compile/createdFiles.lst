@@ -1,0 +1,17 @@
+com\bean\UserMenu.class
+com\dao\ProductCatalogDAO.class
+com\dao\UserDAO.class
+com\bean\ProductInformation.class
+com\bean\UserInformation.class
+com\dao\UserDAOImpl.class
+com\controller\ProductController.class
+com\service\ProductCatalogService.class
+com\bean\ProductCategory.class
+com\service\ProductCatalogServiceImpl.class
+com\AppStarter.class
+com\controller\UserLoginController.class
+com\service\UserService.class
+com\service\UserServiceImpl.class
+com\dao\ProductCatalogDAOImpl.class
+com\service\SecurityService.class
+com\bean\ProductFilter.class

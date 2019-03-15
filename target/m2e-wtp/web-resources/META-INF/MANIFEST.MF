@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: ProductCatalog
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: kaumu
+Implementation-Vendor-Id: com.product
+Build-Jdk: 1.8.0_201
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/product-catalog
+Created-By: Maven Integration for Eclipse
+
