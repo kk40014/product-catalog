@@ -55,26 +55,12 @@ public class ProductInformation {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+	// Lambda expressions 
+	public static final Comparator<ProductInformation> SortPriceAsc = (ProductInformation p1, ProductInformation p2) ->p1.getPrice() - p2.getPrice();
 	
-	public static final Comparator<ProductInformation> SortPriceAsc = new Comparator<ProductInformation>() {
-		@Override
-		public int compare(ProductInformation p1, ProductInformation p2) {
-			return p1.getPrice() - p2.getPrice();
-		}
-	};
+	public static final Comparator<ProductInformation> SortPriceDesc = (ProductInformation p1, ProductInformation p2) ->p2.getPrice() - p1.getPrice();
 	
-	public static final Comparator<ProductInformation> SortPriceDesc = new Comparator<ProductInformation>() {
-		@Override
-		public int compare(ProductInformation p1, ProductInformation p2) {
-			return p2.getPrice() - p1.getPrice();
-		}
-	};
-	
-	public static final Comparator<ProductInformation> SortAlbhabetical = new Comparator<ProductInformation>() {
-		@Override
-		public int compare(ProductInformation p1, ProductInformation p2) {
-			return p1.getProductname().compareToIgnoreCase(p2.getProductname());
-		}
-	};
+	public static final Comparator<ProductInformation> SortAlbhabetical = (ProductInformation p1, ProductInformation p2) -> p1.getProductname().compareToIgnoreCase(p2.getProductname());
 	
 }
+
